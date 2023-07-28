@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 // Normally, the class that we want to test would exist in a different namespace
-namespace VendorsAPI.UnitTests {
+namespace Examples.UnitTests {
   public class Stack<T> {
     private readonly List<T> _list = new List<T>();
 
