@@ -1,8 +1,4 @@
-using Xunit;
-using FluentAssertions;
-using System;
-
-namespace VendorsAPI.UnitTests {
+namespace Stack.UnitTests {
   public class StackTests {
     [Fact]
     public void Push_ArgIsNull_ThrowArgNullException() {
@@ -10,7 +6,7 @@ namespace VendorsAPI.UnitTests {
       Stack<string> stack = new();
 
       // Act
-      Action act = () => stack.Push(null);
+      Action act = () => stack.Push(null!);
 
       // Assert
       act.Should().Throw<ArgumentNullException>();
