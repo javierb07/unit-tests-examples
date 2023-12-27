@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-- Install [.NET SDK 6](https://dotnet.microsoft.com/download/dotnet/6.0)
+- Install [.NET SDK 7](https://dotnet.microsoft.com/download/dotnet/7.0)
 - Install vs code extension `ms-dotnettools.csharp`.
 - Install [XUnit](https://xunit.net/)
 
